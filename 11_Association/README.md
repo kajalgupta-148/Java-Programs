@@ -1,39 +1,46 @@
 # Association in Java
 
-This folder contains Java programs that demonstrate the concept of Association in Java.
-
-## What is Association?
-
-Association is a relationship between two or more separate classes where objects of one class are connected with objects of another class.
-
-Association represents a "has-a" relationship between classes.
-
-For example:
-
-- A Customer has a Bank account.
-- A Customer has a Product.
-- A Patient has a Hospital.
-- A Student has a College.
-- A Teacher has a School.
+Association in Java represents a relationship between two or more separate classes.
 
 ## Types of Association
 
-Association can be mainly classified into:
-
-- One-to-One
-- One-to-Many
-- Many-to-One
-- Many-to-Many
-
-## Programs Covered
-
 ### 1. Customer and Bank
+Demonstrates the relationship between a customer and a bank.
 
-This program demonstrates the association between a Customer and a Bank.
+Example:
+- CustomerBank
 
-Folder: `CustomerBank`
+### 2. Customer and Product
+Demonstrates the relationship between a customer and a product.
 
-Relationship:
+Example:
+- CustomerProduct
 
-```text
-Customer → Bank
+### 3. Patient and Hospital
+Demonstrates the relationship between a patient and a hospital.
+
+Example:
+- PatientHospital.java
+
+### 4. Student and College
+Demonstrates the relationship between a student and a college.
+
+Example:
+- StudentCollege
+
+### 5. Teacher and School
+Demonstrates the relationship between a teacher and a school.
+
+Example:
+- TeacherSchool.java
+
+## Topics Covered
+
+- Association
+- Has-a relationship
+- Relationship between classes
+- Objects and classes
+- Object interaction
+- One-to-One Association
+
+
