@@ -1,0 +1,11 @@
+public class StringReplace {
+
+    public static void main(String[] args) {
+
+        String str = "I love Java";
+
+        String result = str.replace("Java", "Python");
+
+        System.out.println(result);
+    }
+}
