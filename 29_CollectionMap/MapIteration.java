@@ -1,0 +1,18 @@
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MapIteration {
+    public static void main(String[] args) {
+
+        Map<Integer, String> map = new HashMap<>();
+
+        map.put(1, "Java");
+        map.put(2, "Python");
+        map.put(3, "C++");
+
+        for (Map.Entry<Integer, String> e : map.entrySet()) {
+            System.out.println(e.getKey() + " = " + e.getValue());
+        }
+    }
+}
